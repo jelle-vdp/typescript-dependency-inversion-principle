@@ -1,6 +1,6 @@
 # Dependency inversion principle
 Typescript exercise for the BeCode webdevelopment course. Improved the old typescript file (also in this repository) based on SOLID's Dependency Inversion Principle.<br>
-Link: https://github.com/jelle-vdp/typescript-dependency-inversion-principle/settings/pages
+Link: https://jelle-vdp.github.io/typescript-dependency-inversion-principle/
 
 ## About DIP
 
