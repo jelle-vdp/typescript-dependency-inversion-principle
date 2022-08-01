@@ -12,7 +12,7 @@ class Stove implements Cooker {
         setTimeout(function (){
             const target = <HTMLElement>document.getElementById("target");
             target.innerHTML += "<p>"+new Date().getHours()+":"+new Date().getMinutes()+" : THE ELECTRICITY IS ON!</p>";
-        }, 1000);
+        }, 3000);
         this._isOn = true;
     }
 
@@ -21,7 +21,7 @@ class Stove implements Cooker {
         setTimeout(function (){
             const target = <HTMLElement>document.getElementById("target");
             target.innerHTML += "<p>"+new Date().getHours()+":"+new Date().getMinutes()+" : THE ELECTRICITY IS OFF!</p><hr>";
-        }, 3000);
+        }, 7000);
         this._isOn = false;
     }
 
@@ -31,7 +31,7 @@ class Stove implements Cooker {
             setTimeout(function (){
                 const target = <HTMLElement>document.getElementById("target");
                 target.innerHTML += "<p>"+new Date().getHours()+":"+new Date().getMinutes()+" : Now baking " + item + " !</p>";
-            }, 2000);
+            }, 5000);
         }
         else
         {

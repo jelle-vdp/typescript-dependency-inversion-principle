@@ -7,14 +7,14 @@ class Stove {
         setTimeout(function () {
             const target = document.getElementById("target");
             target.innerHTML += "<p>" + new Date().getHours() + ":" + new Date().getMinutes() + " : THE ELECTRICITY IS ON!</p>";
-        }, 1000);
+        }, 3000);
         this._isOn = true;
     }
     stop() {
         setTimeout(function () {
             const target = document.getElementById("target");
             target.innerHTML += "<p>" + new Date().getHours() + ":" + new Date().getMinutes() + " : THE ELECTRICITY IS OFF!</p><hr>";
-        }, 3000);
+        }, 7000);
         this._isOn = false;
     }
     bake(item) {
@@ -22,7 +22,7 @@ class Stove {
             setTimeout(function () {
                 const target = document.getElementById("target");
                 target.innerHTML += "<p>" + new Date().getHours() + ":" + new Date().getMinutes() + " : Now baking " + item + " !</p>";
-            }, 2000);
+            }, 5000);
         }
         else {
             setTimeout(function () {
